@@ -1,5 +1,6 @@
 # ITIX Custom uBlock List
 
+Custom list for [uBlock Origin](https://github.com/gorhill/uBlock). 
 Currently, filters: 
  - Youtube Ads
 
@@ -12,4 +13,5 @@ Currently, filters:
 ```
 https://raw.githubusercontent.com/nmasse-itix/ITIX-uBlock-List/master/ITIX.txt
 ```
+ - Click the `Parse` button (below the text box) 
 
