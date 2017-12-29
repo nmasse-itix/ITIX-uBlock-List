@@ -1,0 +1,7 @@
+[Adblock Plus 2.0]
+! Version: 20171229
+! Expires: 1 weeks
+! Title: ITIX uBlock filters
+! Homepage: https://github.com/nmasse-itix
+youtube.com##.ad-interrupting .video-stream.html5-main-video
+www.youtube.com##.ytp-autohide.playing-mode.ytp-title-extra-info.ad-interrupting.ad-showing.ad-created.ytp-hide-info-bar.ytp-ad-overlay-closed.ytp-iv-drawer-enabled.iv-module-loaded.html5-video-player
