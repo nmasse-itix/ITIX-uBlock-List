@@ -1,4 +1,4 @@
-# ITIX uBlock Filters
+# ITIX Custom uBlock List
 
 Currently, filters: 
  - Youtube Ads
