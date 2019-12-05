@@ -1,7 +1,22 @@
 [Adblock Plus 2.0]
-! Version: 20171229
+! Version: 201712291848
 ! Expires: 1 weeks
-! Title: ITIX uBlock filters
+! Title: ITIX Custom uBlock list
 ! Homepage: https://github.com/nmasse-itix
+
+! Hide YouTube ads
 youtube.com##.ad-interrupting .video-stream.html5-main-video
 www.youtube.com##.ytp-autohide.playing-mode.ytp-title-extra-info.ad-interrupting.ad-showing.ad-created.ytp-hide-info-bar.ytp-ad-overlay-closed.ytp-iv-drawer-enabled.iv-module-loaded.html5-video-player
+
+! Hide YouTube suggestions
+youtube.com##div#secondary
+
+! Hide comments
+youtube.com##ytd-comments#comments
+
+! Hide YouTube recommendations on main page
+youtube.com##ytd-browse[page-subtype='home']
+
+! Hide YouTube trending page
+youtube.com##ytd-browse:not([page-subtype])
+
