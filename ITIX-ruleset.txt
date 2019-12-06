@@ -25,24 +25,10 @@ Boursorama
 		_ 1st-party cookie allow
 		_ brsimg.com * allow
 
-Paiement CB BNPP
-	bnpparibas.net mercanet.bnpparibas.net
-		_ mercanet.bnpparibas.net cookie allow
-		_ mercanet.bnpparibas.net script allow
-
-Paiement CB e-transaction
-	e-transactions.fr tpeweb.e-transactions.fr
-		_ tpeweb.e-transactions.fr script allow
-		_ tpeweb.e-transactions.fr cookie allow
-
-Paiement CB Caisse d'épargne
-	systempay.fr paiement.systempay.fr
-		_ paiement.systempay.fr cookie allow
-		_ paiement.systempay.fr script allow
-
 Photo Service
 	photoservice.com *
 		_ 1st-party cookie allow
+		_ 1st-party script allow
 		_ cgin.fr * allow
 		_ fonts.googleapis.com * allow
 		_ gstatic.com * allow
@@ -52,11 +38,13 @@ Photo Service
 Que-Choisir
 	quechoisir.org *
 		_ 1st-party cookie allow
+		_ 1st-party script allow
 		_ qccdn.fr * allow
 
 CREA Quincaillerie
 	quincaillerie.pro *
 		_ 1st-party cookie allow
+		_ 1st-party script allow
 		_ ajax.googleapis.com script allow
 
 RDV Médicaux
@@ -66,13 +54,3 @@ RDV Médicaux
 		_ fonts.googleapis.com * allow
 		_ gstatic.com * allow
 		_ maps.googleapis.com * allow
-
-Updown.io
-	updown.io *
-		_ 1st-party cookie allow
-		_ 1st-party script allow
-
-Brico-Privé
-	bricoprive.com *
-		_ 1st-party cookie allow
-		_ 1st-party script allow
