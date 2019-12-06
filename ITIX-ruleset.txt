@@ -1,0 +1,74 @@
+! uMatrix: Ruleset recipes 1.0
+
+! Title: Rulesets for ITIX users
+! Maintainer: Nicolas Massé
+
+! Important note: this ruleset assumes the following default configuration:
+!  * 1st-party cookie block
+!  * 1st-party script block
+
+Bike-Café
+    bike-cafe.fr *
+        _ bike-cafe.fr script allow
+        _ bootstrapcdn.com * allow
+        _ fonts.googleapis.com * allow
+        _ gravatar.com * allow
+        _ gstatic.com * allow
+
+Boursorama
+    boursorama.com *
+        _ 1st-party script allow
+        _ 1st-party cookie allow
+        _ brsimg.com * allow
+
+Paiement CB BNPP
+    bnpparibas.net mercanet.bnpparibas.net
+        _ mercanet.bnpparibas.net cookie allow
+        _ mercanet.bnpparibas.net script allow
+
+Paiement CB e-transaction
+    e-transactions.fr tpeweb.e-transactions.fr
+        _ tpeweb.e-transactions.fr script allow
+        _ tpeweb.e-transactions.fr cookie allow
+
+Paiement CB Caisse d'épargne
+    systempay.fr paiement.systempay.fr
+        _ paiement.systempay.fr cookie allow
+        _ paiement.systempay.fr script allow
+
+Photo Service
+    photoservice.com *
+        _ 1st-party cookie allow
+        _ cgin.fr * allow
+        _ fonts.googleapis.com * allow
+        _ gstatic.com * allow
+        ! Pour le choix du relais colis
+        _ maps.googleapis.com * allow
+
+Que-Choisir
+    quechoisir.org *
+        _ 1st-party cookie allow
+        _ qccdn.fr * allow
+
+CREA Quincaillerie
+    quincaillerie.pro *
+        _ 1st-party cookie allow
+        _ ajax.googleapis.com script allow
+
+RDV Médicaux
+    rdvmedicaux.com *
+        _ 1st-party cookie allow
+        _ 1st-party script allow
+        _ fonts.googleapis.com * allow
+        _ gstatic.com * allow
+        _ maps.googleapis.com * allow
+
+Updown.io
+    updown.io *
+        _ 1st-party cookie allow
+        _ 1st-party script allow
+
+Brico-Privé
+    bricoprive.com *
+        _ 1st-party cookie allow
+        _ 1st-party script allow
