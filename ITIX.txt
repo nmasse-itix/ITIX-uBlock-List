@@ -20,3 +20,5 @@ youtube.com##ytd-browse[page-subtype='home']
 ! Hide YouTube trending page
 youtube.com##ytd-browse:not([page-subtype])
 
+! Hide LiveIntent ads from BabyCenter in GMail
+mail.google.com##a[href^="http://li.babycenter.com/"]
