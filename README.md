@@ -16,6 +16,7 @@ Currently, filters:
 
 ```raw
 https://raw.githubusercontent.com/nmasse-itix/ITIX-uBlock-List/master/ITIX.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
 ```
 
 - Click the **Parse** button (below the text box)
@@ -31,6 +32,7 @@ https://raw.githubusercontent.com/nmasse-itix/ITIX-uBlock-List/master/ITIX.txt
 
 ```raw
 https://raw.githubusercontent.com/nmasse-itix/ITIX-uBlock-List/master/ITIX.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
 ```
 
 - Click the **Apply changes** button (in the top right corner)
