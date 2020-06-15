@@ -36,3 +36,11 @@ https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWi
 ```
 
 - Click the **Apply changes** button (in the top right corner)
+
+## Built-in Filters to enable
+
+- Open `about:addons`
+- Click the three-dots button next to **uBlock Origin**
+- Click on **Preferences**
+- Go to the **Filter lists** tab
+- Scroll down to the **Annoyances** section and turn on the **EasyList Cookies**.
